@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pride_Colors" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kj-6n-RIu">
+                                <rect key="frame" x="60" y="236" width="99" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Electric Red">
+                                    <color key="titleColor" red="0.90588235294117647" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="turnRedOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Qd-Pt-GSo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8w-rw-S8T">
+                                <rect key="frame" x="235" y="236" width="104" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Dark Orange">
+                                    <color key="titleColor" red="1" green="0.5490196078431373" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="turnOrangeOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FsE-DG-hy2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B48-Rn-b40">
+                                <rect key="frame" x="91" y="461" width="37" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Blue">
+                                    <color key="titleColor" red="0.0" green="0.26666666666666666" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="turnBlueOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V3P-BP-mmx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4g-p4-Uqj">
+                                <rect key="frame" x="52" y="352" width="115" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Canary Yellow">
+                                    <color key="titleColor" red="1" green="0.93725490196078431" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="turnYellowOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fSt-Lt-dO3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GM2-Nw-JaI">
+                                <rect key="frame" x="231" y="352" width="118" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="La Salle Green">
+                                    <color key="titleColor" red="0.0" green="0.50588235294117645" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="turnLaSalleGreenOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hwl-zS-lgj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gpf-o5-xxe">
+                                <rect key="frame" x="248" y="461" width="74" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Patriarch">
+                                    <color key="titleColor" red="0.46274509803921571" green="0.0" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="turnPurpleOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ugr-lQ-dVN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypf-pf-o6j">
+                                <rect key="frame" x="179" y="613" width="56" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="turnWhiteOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ScV-QS-vlv"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="PRIDE COLORS" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Vq-aH-e1y">
+                                <rect key="frame" x="108" y="95" width="198" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GM2-Nw-JaI" firstAttribute="leading" secondItem="I4g-p4-Uqj" secondAttribute="trailing" constant="64" id="17B-cW-gha"/>
+                            <constraint firstItem="4kj-6n-RIu" firstAttribute="centerX" secondItem="I4g-p4-Uqj" secondAttribute="centerX" id="2dl-X7-Jpd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gpf-o5-xxe" secondAttribute="trailing" constant="92" id="DfY-jL-nl0"/>
+                            <constraint firstItem="B48-Rn-b40" firstAttribute="baseline" secondItem="Gpf-o5-xxe" secondAttribute="baseline" id="JAp-8D-vfQ"/>
+                            <constraint firstItem="4kj-6n-RIu" firstAttribute="centerX" secondItem="B48-Rn-b40" secondAttribute="centerX" id="KAg-NF-UV5"/>
+                            <constraint firstItem="4kj-6n-RIu" firstAttribute="baseline" secondItem="S8w-rw-S8T" secondAttribute="baseline" id="MG8-wi-KaT"/>
+                            <constraint firstItem="4kj-6n-RIu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="216" id="Ma1-BG-J40"/>
+                            <constraint firstItem="GM2-Nw-JaI" firstAttribute="baseline" secondItem="I4g-p4-Uqj" secondAttribute="baseline" id="RkP-Uq-Jwr"/>
+                            <constraint firstItem="0Vq-aH-e1y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="Sz5-4x-aHY"/>
+                            <constraint firstItem="0Vq-aH-e1y" firstAttribute="centerX" secondItem="ypf-pf-o6j" secondAttribute="centerX" id="UTb-FH-dnP"/>
+                            <constraint firstItem="ypf-pf-o6j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YgA-aE-fXQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ypf-pf-o6j" secondAttribute="bottom" constant="87" id="ZpT-w5-RdZ"/>
+                            <constraint firstItem="0Vq-aH-e1y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="kMK-rC-2Ou"/>
+                            <constraint firstItem="Gpf-o5-xxe" firstAttribute="top" secondItem="GM2-Nw-JaI" secondAttribute="bottom" constant="76" id="l2u-L4-k1V"/>
+                            <constraint firstItem="I4g-p4-Uqj" firstAttribute="top" secondItem="4kj-6n-RIu" secondAttribute="bottom" constant="83" id="tVt-tZ-W83"/>
+                            <constraint firstItem="S8w-rw-S8T" firstAttribute="leading" secondItem="4kj-6n-RIu" secondAttribute="trailing" constant="76" id="x8e-UN-xvC"/>
+                            <constraint firstItem="4kj-6n-RIu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="xvW-Qg-3nM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.39130434782609" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
